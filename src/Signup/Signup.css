@@ -1,0 +1,98 @@
+.title{
+color: #474E99;
+position: absolute;
+left: 3%;
+top: 15%;
+font-size: 250%;
+font-family: AvenirNextLTPro-Regular;
+}
+
+/*Name forms*/
+.name{
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  color: #464C90;
+  font-family: AvenirNextLTPro-Regular;
+}
+
+/*input forms*/
+.email{
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  color: #464C90;
+  font-family: AvenirNextLTPro-Regular;
+}
+.password{
+  position: absolute;
+  left: 5%;
+  top:65%;
+  color: #464C90;
+  font-family: AvenirNextLTPro-Regular;
+}
+input:hover{
+  border-color: #464C90;
+  border-width: 1.8px;
+
+}
+input{
+  border-width: 1.4px;
+  border-color: #464C90;
+  width: 110%;
+  padding: 3%;
+  border-radius: 3px;
+   }
+
+/*button */
+.next{
+    position: absolute;
+  width: 43%;
+  top: 85%;
+  left: 3%;
+  color: white;
+  border-radius: 30px;
+  background: #464C90;
+  font-family: AvenirNextLTPro-Regular;
+}
+button:hover{
+  background: linear-gradient(#393c79,#442772);
+}
+/* Split the screen in half */
+.split {
+ height: 100%;
+ width: 70%;
+ position:absolute;
+ z-index: 1;
+ top: 0;
+ overflow-x: hidden;
+ padding-top: 20%;
+}
+/* Control the right side */
+.right {
+ right: 0;
+ background: linear-gradient(#484C98, #55318F);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+/* Style the image inside the centered container*/
+.centered img {
+ width: 90%;
+ margin-top: -40%;
+
+}
+#di img{
+  width: 95%;
+  height: 95%;
+  margin-top: 60%;
+  left: 10%;
+
+}
